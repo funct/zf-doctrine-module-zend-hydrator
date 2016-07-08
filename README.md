@@ -13,6 +13,11 @@ Discussion on this issue:
  * Jan 30, 2016: https://github.com/doctrine/DoctrineModule/pull/548
  * Apr 7, 2016: https://github.com/doctrine/DoctrineModule/pull/558#issuecomment-207212246
 
+Funct Adjustments
+-----------------
+- Add the `DoctrineORMModule`s factory
+- Fetch entity manager from `doctrine.entity_manager.orm_default` instead to be compatible with [container-interop-doctrine](https://github.com/DASPRiD/container-interop-doctrine)
+- Class names are left as in the origianl package, so this package can be replaced by the `DoctrineModule` and `DoctrineORMModule` later on when they become compatible again.
 
 Installation
 ------------

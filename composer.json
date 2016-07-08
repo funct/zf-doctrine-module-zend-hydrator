@@ -1,7 +1,6 @@
 {
     "name": "funct/doctrine-zend-hydrator",
-    "description": "Use zend-hydrator for hydrating doctrine-entities. 
-Stand-alone version with no dependency to the DoctrineModule",
+    "description": "Use zend-hydrator for hydrating doctrine-entities. Stand-alone version with no dependency to the DoctrineModule",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,7 +14,8 @@ Stand-alone version with no dependency to the DoctrineModule",
     },
     "autoload": {
         "psr-4": {
-            "DoctrineModule\\Stdlib\\Hydrator\\": "src/"
+            "DoctrineModule\\Stdlib\\Hydrator\\": "src-doctrine-module/",
+            "DoctrineORMModule\\": "src-doctrine-orm-module/"
         }
     }
 }
